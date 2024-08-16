@@ -1,0 +1,29 @@
+body {
+    background-image: url("./42.jpg");
+    background-color: #56c5e0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .container {
+    background-color: #c7a7ce91;
+    width: 500px;
+    height: 700px;
+    border-radius: 40px;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+    font-size: 30px;
+    font-family: serif;
+}
