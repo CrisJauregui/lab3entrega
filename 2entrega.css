@@ -1,0 +1,146 @@
+body {
+    background-image: url("./\ -2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #153856cd;
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.fotocuadro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+   #fotoprin {
+    width: 770px;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+
+.playa {
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+    width: 100px;
+}
+
+#playa {
+    width: 100px;
+    height: 100px;
+}
+.flecha {
+    position: absolute;
+    bottom: -10px;
+    right: 80px;
+    width: 350px;
+}
+
+#flecha {
+    width: 100px;
+    height: 100px;
+}
+
+.ojoturco  {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 350px;
+}
+
+   #ojoturco {
+    width: 40px;
+    border-radius: 300px;
+}
+
+.texto {
+    position: absolute;
+    color: rgb(0, 13, 66);
+    top: 20px;
+    left: 70px;
+    width: 350px;
+    font-family: sans-serif;
+}
+
+.fotouser  {
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    width: 250px;
+}
+
+   #fotouser {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+.nombre {
+    position: absolute;
+    color: rgb(62, 2, 36);
+    top: 150px;
+    left: 170px;
+    width: 350px;
+    font-family: sans-serif;
+}
+
+.cuboformulario {        
+    position: absolute;
+    bottom: 100px;
+    top: 300px;
+    left: 90px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #96c9d6; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+     
+  
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+  width: 120px;
+  margin-top: 20px;
+  margin-right: 50px;
+  padding: 10px;
+  background-color: #3c263f;
+  color: #ffffffcd;
+  border-radius: 10px;
+  font-size: 15px; 
+}
+
+.Forgot-Password {
+    color: #ffffffcd;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.Submit {
+    padding: 18px;
+    background-color: #ea9393;
+    color: #ffffffcd;
+    border: white;
+    border-radius: 15px;
+    cursor: pointer;
+    }
